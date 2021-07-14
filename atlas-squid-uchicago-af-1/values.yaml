@@ -68,7 +68,7 @@ SquidConf:
   # Use 0.0.0.0/0 for open access.
   # The default set of ranges are those defined in RFC 1918 and typically used 
   # within kubernetes clusters. 
-  IPRange: 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16
+  IPRange: 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 192.170.226.0/23
 
   # The regular expressiion to restrict outbound traffic
   #RESTRICT_DEST: "^(((cms|atlas).*frontier.*)\\.cern\\.ch)|frontier.*\\.racf\\.bnl\\.gov$"
